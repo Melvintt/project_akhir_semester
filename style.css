@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+}
+
+.header {
+    background-color: #FDF100;
+    text-align: center;
+    height: 150px;
+    padding-right: 100px;
+    border: 1px solid beige;
+}
+.logo {
+    float: left;
+}
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.nav {
+    margin-top: 20px;
+    word-spacing: 100px;
+}
+.nav a{
+    font-size: 30px;
+}
+.searchbox {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.toko h1{
+    padding-top: 10px;
+    color: black;
+}
+.first {
+    background-color: black;
+    height: 60px;
+    border: 5px solid white;
+}
+.first h1 {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.produk {
+    background-color: gray;
+    margin-top: 50px;
+    height: 250px;
+    width: 250px;
+    display: inline-flex;
+    margin-left: 120px;
+    box-shadow: 5px 8px 20px ;
+    
+}
+.second {
+    background-color: black;
+    height: 60px;
+    border: 5px solid white;
+    margin-top: 50px;
+}
+.second h1 {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.barang {
+    background-color: gray;
+    margin-top: 50px;
+    height: 250px;
+    width: 85%;
+    display: flex;
+    margin-left: 100px;
+    box-shadow: 5px 8px 20px ;
+    margin-bottom: 50px;
+}
+
+.promos {
+    background-color: gray;
+    margin-top: 50px;
+    height: 483px;
+    width: 70%;
+    display: flex;
+    margin-left: 200px;
+    box-shadow: 5px 8px 20px ;
+    margin-bottom: 50px;
+}
+
+.promos img {
+    height: 483px;
+}
+
+.promoss {
+    background-color: gray;
+    margin-top: 100px;
+    height: 265.5px;
+    width: 70%;
+    display: flex;
+    margin-left: 200px;
+    box-shadow: 5px 8px 20px ;
+    margin-bottom: 50px;
+}
+
+.promoss img {
+    height: 265.5px;
+    margin-right: 100px;
+    
+}
+
+.promosss {
+    background-color: gray;
+    margin-top: 100px;
+    height: 221.5px;
+    width: 70%;
+    display: flex;
+    margin-left: 200px;
+    box-shadow: 5px 8px 20px ;
+    margin-bottom: 50px;
+}
+
+.order-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    background-color: gray;
+}
+
+.order-form h2 {
+    text-align: center;
+    color: black;
+}
+
+.order-form form {
+    display: grid;
+    gap: 10px;
+}
+
+.order-form label {
+    display: block;
+    font-weight: bold;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.order-form button {
+    background-color: yellowgreen;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.order-form button:hover {
+    background-color: green;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    /* position: fixed; */
+    bottom: 0px;
+    width: 100%;
+}

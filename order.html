@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="assets/stores.png" alt="">
+        </div>
+        <div class="toko">
+            <h1>S-Mart</h1>
+        </div>
+        <div class="search">
+            <input class="searchbox" type="text" name="q" id="" placeholder="Search Here!">
+        </div>
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="index.html">Shop</a>
+            <a href="promo.html">Promo</a>
+            <a href="order.html">Order</a>
+        </div>
+    </div>
+    <div class="first">
+        <h1>ORDER</h1>
+    </div>
+    <div class="order-form">
+        <h2>Order Now</h2>
+        <form action="submit_order.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+
+            <label for="product">Product:</label>
+            <select id="product" name="product" required>
+                <option value="product1">Product 1</option>
+                <option value="product2">Product 2</option>
+                <option value="product3">Product 3</option>
+            </select>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </div>
+
+    <div class="footer">
+
+    </div>
+    <section class="bottom">
+        <p>&copy; Hak cipta ...</p>
+    </section>
+</body>
+</html>
